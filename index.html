@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Курс Data Science ЛГТУ</title>
+    <link rel="icon" href="image/LSTU_Tit.png" type="image/x-icon">
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\baner.css">
+    <link rel="stylesheet" href="css\programm.css">
+    <link rel="stylesheet" href="css\list.css">
+    <link rel="stylesheet" href="css\table.css">
+    <link rel="stylesheet" href="css\contact.css">
+</head>
+<header>
+    <img src="image\logo2.jpg" class="logo">
+    <button class="header_button" onclick="scrollDown('program1')">О специальности</button>
+    <button class="header_button" onclick="scrollDown('program2')">Программа обучения</button>
+    <button class="header_button" onclick="scrollDown('program3')">Формат обучения</button>
+    <button class="header_button" onclick="scrollDown('program4')">Поступление</button>
+    <button class="header_button" onclick="scrollDown('footer')">Контакты</button>
+</header>
+
+<body>
+    <div class="banner">
+        <img src="image/LSTU.jpg" alt="Background image" class="background">
+        <div class="overlay">
+            <div class="text-block">
+                <h1>DATA SCIENTIST</h1>
+                <h4>#4A5B6B</h4>
+            </div>
+
+            <h2 style="margin-left: 120px;">Информация о специальности</h2>
+            <div class="info-block-list">
+
+                <div class="info-block">
+                    <h1>Формат обучения</h1>
+                    <p>Очный</p>
+                </div>
+
+                <div class="info-block">
+                    <h1>Продолжительность обучения</h1>
+                    <p>4 месяца</p>
+                </div>
+
+                <div class="info-block">
+                    <h1>Дата начала</h1>
+                    <p>16.05.2024</p>
+                </div>
+
+                <div class="info-block">
+                    <h1>Стоимость обучения</h1>
+                    <p> от 30 000 до 50 000 ₽</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="program" id="program1">
+        <h2>О специальности</h2>
+
+        <h3>Откройте для себя мир Data Science</h3>
+        <p>
+            Присоединяйтесь к нашей программе по Data Science и станьте частью
+            быстрорастущей индустрии анализа данных. Научитесь извлекать ценные
+            инсайты из больших объемов информации и помогать компаниям принимать
+            обоснованные решения
+        </p>
+
+        <h3>Стань экспертом в анализе данных</h3>
+        <p>
+            Наша программа по Data Science предлагает глубокое погружение в методы
+            машинного обучения, статистики и визуализации данных. Вы освоите
+            современные инструменты и технологии для работы с данными и сможете
+            применять полученные знания в различных отраслях
+        </p>
+
+        <h3>Будущее за теми, кто умеет работать с данными</h3>
+        <p>
+            Выбирая направление Data Science, вы инвестируете в свое будущее.
+            Специалисты по анализу данных находятся в высоком спросе на рынке
+            труда и получают конкурентоспособную зарплату. Присоединяйтесь к
+            нашей программе и откройте для себя новые возможности карьерного
+            роста
+        </p>
+
+        <h3>Стань частью команды инноваторов</h3>
+        <p>
+            Наша программа по Data Science объединяет талантливых студентов и
+            опытных преподавателей-практиков. Вы будете работать над реальными
+            проектами, решать интересные задачи и развивать навыки командной
+            работы. Присоединяйтесь к нашему сообществу инноваторов и меняйте мир
+            с помощью данных
+        </p>
+    </div>
+
+    <div class="program" id="program2">
+        <h2>Программа обучения</h2>
+
+        <button class="collapsible">Основы Python<span class="badge">4</span>
+            <span class="icon">+</span></button>
+        <div class="content">
+            <p>В этом блоке вы изучите основы языка Python, что позволит легче работать при анализе данных, обучении
+                моделяей и тп.</p>
+            <ul>
+                <li>Python начало. Ввод вывод. Функции.</li>
+                <li>Библиотека matplotlib.</li>
+                <li>Библиотека numpy.</li>
+                <li>Библиотека pandas.</li>
+            </ul>
+        </div>
+
+        <button class="collapsible">Алгоритмы и структуры данных <span class="badge">3</span> <span
+                class="icon">+</span></button>
+        <div class="content">
+            <p>В этом блоке вы изучите основные алгоритмы структуры данных.</p>
+            <ul>
+                <li>"Зачем они нужны?". Введение, оценка эффективности.</li>
+                <li>Древовидные структуры данных.</li>
+                <li>Бинарный поиск.</li>
+            </ul>
+        </div>
+
+        <button class="collapsible">Основы анализа данных <span class="badge">3</span> <span
+                class="icon">+</span></button>
+        <div class="content">
+            <p>В этом блоке вы научитесь анализировать данных с помощью коэффициентов корреляции, среднего значения и
+                других, строить регрессии и делать по ним выводы.</p>
+            <ul>
+                <li>Основные методы.</li>
+                <li>Корреляции.</li>
+                <li>Регрессионный анализ.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="program" id="program3">
+        <h2>Формат обучения</h2>
+        
+        <!-- <h5>Вас ждёт интенсив на 3 месяца, проходящий в очном формате</h5> -->
+
+
+       <p>Вас ждёт интенсив на 3 месяца, проходящий в очном формате, на котором вы научитесь основным навыкам специолиста Data Scientist:</p> 
+       
+       <ul>
+        <li>Вы освоите основы языка Python.</li>
+        <li>Вы научитесь работать с такими библиотеками, как numpy, pandas, matplotlib, sklearn, statistics.</li>
+        <li>Вы изучите методы анализа данных и научитесь применять их к реальным задачам.</li>
+        <li>Вы изучите архитектуру разных моделей машинного обучения и научитесь создавать модели для решения определенных задач.</li>
+       </ul>
+
+    </div>
+
+    <div class="program" id="program4">
+        <h2>Поступление</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Продолжительность</th>
+                    <th>Стоимость обучения</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>3 месяца</td>
+                <td>30,000 руб.</td>
+            </tr>
+
+            <tr>
+                <td>3 месяца</td>
+                <td>50,000 руб.</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+    <script src="js/1.js"></script>
+</body>
+
+<footer class="footer" id="footer">
+    <div class="footer-top">
+        <div class="footer__logo">
+            <a href="/" class="logo">
+                ЛИПЕЦКИЙ ГОСУДАРСТВЕННЫЙ<br> ТЕХНИЧЕСКИЙ УНИВЕРСТИТЕТ
+            </a>
+            <div class="footer__contacts">
+                <p>398055, Россия, г. Липецк, ул. Московская, д.30<br>Корпус Б: 398600, Россия, г. Липецк, ул.
+                    Интернациональная, д.5</p>
+                <p>Ответственный секретарь приемной комиссии (ауд. 402 адм. корпус)<br><a href="tel:84742328223">8
+                        (4742) 328-223</a>, <a href="tel:89046914519">8 904 691 45 19</a></p>
+            </div>
+        </div>
+        <div class="footer__menu">
+            <ul>
+                <li><a href="https://stu.lipetsk.ru/sveden/">Сведения об образовательной организации</a></li>
+                <li><a
+                        href="https://stu.lipetsk.ru/struct/management/rectorat/pro-edu/sub/upkro/sub/cszv/">Трудоустройство</a>
+                </li>
+                <li><a
+                        href="https://stu.lipetsk.ru/struct/management/rectorat/pro-first/sub/uvs/sub/pr/partnership/">Партнерство</a>
+                </li>
+                <li><a href="https://stu.lipetsk.ru/struct/management/rector/sub/buh/payments.html">Оплата услуг</a>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="https://stu.lipetsk.ru/links/">Полезные ссылки</a></li>
+                <li><a
+                        href="https://stu.lipetsk.ru/struct/management/rectorat/pro-first/sub/uvs/sub/pr/">Пресс-служба</a>
+                </li>
+                <li><a href="https://www.stu.lipetsk.ru/struct/management/rector/sub/hr/contacts/">Контакты</a></li>
+                <li><a href="https://www.stu.lipetsk.ru/map.html">Карта сайта</a></li>
+                <li><a href="quest/">Вопрос ректору</a></li>
+            </ul>
+        </div>
+        <div class="footer__socials">
+            <div class="socials">
+                <a href="https://vk.com/infolgtu" target="_blank"><img width="36" height="36"
+                        src="/image/vk.svg"></img></a>
+                <a href="https://t.me/infolgtu" target="_blank"><img width="36" height="36"
+                    src="/image/telegram.svg"></img></a>
+                <a href="https://rutube.ru/channel/23637735/" target="_blank"><img width="36" height="36"
+                    src="/image/rutube.svg"></img></a>
+                <a href="https://zen.yandex.ru/id/622e3374a592853404043d2b" target="_blank"><img width="36" height="36"
+                    src="/image/yandex.svg"></img></a>
+                <a href="https://ok.ru/group/54350853243051" target="_blank"><img width="36" height="36"
+                    src="/image/odn.svg"></img></a>
+                <a href="https://www.youtube.com/channel/UCpNTU2trtnplKH4mXVNW-Rg?view_as=subscriber"
+                    target="_blank"><img width="36" height="36"
+                    src="/image/youtube.svg"></img></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">© 2006 - 2024 Липецкий государственный технический университет</div>
+    <div class="footer-banners">
+        <!-- <a href="http://www.admlip.ru/" target="_blank"><img src="/assets/img/footer-links/ban-admlo.jpg" alt=""></a>
+        <a href="http://obrnadzor.gov.ru/" target="_blank"><img src="/assets/img/footer-links/ban-fsnson.jpg" alt=""></a>
+        <a href="http://minobrnauki.gov.ru/" target="_blank"><img src="/assets/img/footer-links/ban-mnivorf.jpg" alt=""></a>
+        <a href="https://edu.gov.ru/" target="_blank"><img src="/assets/img/footer-links/ban-mprf.jpg" alt=""></a>
+        <a href="http://www.rsr-online.ru/" target="_blank"><img src="/assets/img/footer-links/ban-rsr.jpg" alt=""></a>
+        <a href="http://rectors.stu.lipetsk.ru/" target="_blank"><img src="/assets/img/footer-links/ban-srlo.jpg" alt=""></a>
+        <a href="http://www.admlip.ru/authorities/administratsiya-lipetskoy-oblasti/otraslevye-isp-organy/upravlenie-molodezhnoy-politiki-lipetskoy-oblasti/" target="_blank"><img src="/assets/img/footer-links/ban-umpalo.jpg" alt=""></a>
+        <a href="http://deptno.lipetsk.ru/" target="_blank"><img src="/assets/img/footer-links/ban-uoinlo.jpg" alt=""></a> -->
+    </div>
+</footer>
+
+</html>

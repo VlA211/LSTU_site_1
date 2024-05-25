@@ -1,0 +1,29 @@
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 26px;
+  }
+
+  th,
+  td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: center;
+  }
+
+  th {
+        background-color: rgb(231,234,238);
+      font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(19, 45, 85, 0.1);
+
+  }
+
+  tr:hover {
+    background-color: rgba(19, 45, 85, 0.7);
+  }
+
+

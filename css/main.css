@@ -1,0 +1,49 @@
+:root {
+    --color-main: #132d55;
+    --color-button: orange;
+    --color-primary: #fff;
+    --width: 100%;
+    /* --width: 1600px; */
+    --height_logo:100px;
+    --height-header:100px;
+    --color-baner-text:white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box{
+    width: var(--width);
+    /* flex-shrink: 0; */
+    /* justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 22px;
+    font-weight: normal;
+}

@@ -1,0 +1,28 @@
+.program{
+    margin:120px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* font-size: 18px; */
+}
+
+.program p{
+    font-size: 20;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+.program button{
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+
+.program h3{
+    font-size: 32px;
+    font: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
