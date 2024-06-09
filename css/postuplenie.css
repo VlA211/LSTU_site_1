@@ -1,24 +1,35 @@
 .card_admission{
     margin: auto;
     padding: 20px;
-    width: 1000px;
-
-    font-size: 40px;
+    width: 100%;
+    font-size: 26px;
     position: relative; 
 }
 
+.card_text_but{
+    width: 50%;
+
+}
+
 .card_admission_img{
-    width: 100%;
+    margin-left: 10%;
+    width: 80%;
     border-radius: 5px;
     object-fit: cover; 
 }
+
+.card_admission_text{
+    margin: 10px;
+    top:0;
+    position: absolute;
+}
+
 
 .card_admission_text_1{
     position: absolute; 
     top: 40px; /* Adjust the top position */
     left: 40px; /* Adjust the left position */
     margin: 10px;
-    box-shadow: 5px;
 }
 
 .card_admission_text_2{
@@ -30,18 +41,19 @@
 
 
 .cart_big_text{
-    font-size: 60px;
+    font-size: 56px;
 }
 
 .card_admission_button{
     position: absolute; 
-    top: 480px; /* Adjust the top position */
-    left: 570px; /* Adjust the left position */
-    width: 400px;
+    top: 50%;
+    left: 15%; 
+    /* width: 35%; */
+    height: 20%;
     background-color: rgba(19, 45, 85, 1);
     border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
