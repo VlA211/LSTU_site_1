@@ -2,7 +2,7 @@
     margin: auto;
     padding: 20px;
     width: 100%;
-    font-size: 26px;
+    font-size: 42px;
     position: relative; 
 }
 
@@ -27,15 +27,15 @@
 
 .card_admission_text_1{
     position: absolute; 
-    top: 40px; /* Adjust the top position */
-    left: 40px; /* Adjust the left position */
+    top: 15%; 
+    left: 10%;
     margin: 10px;
 }
 
 .card_admission_text_2{
     position: absolute; 
-    top: 80px; /* Adjust the top position */
-    left: 40px; /* Adjust the left position */
+    top: 30%; 
+    left: 10%; 
     margin: 10px;
 }
 
