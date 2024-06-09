@@ -1,9 +1,12 @@
 .card_admission{
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 10%;
     padding: 20px;
-    width: 100%;
+    width: 80%;
     font-size: 42px;
+    height: 50vh;
     position: relative; 
+    background-image: url('../image/carr.png');
 }
 
 .card_text_but{
@@ -16,38 +19,58 @@
     width: 80%;
     border-radius: 5px;
     object-fit: cover; 
+    z-index: 2;
 }
 
 .card_admission_text{
-    margin: 10px;
-    top:0;
     position: absolute;
-}
-
-
-.card_admission_text_1{
-    position: absolute; 
-    top: 15%; 
+    top: 10%; 
     left: 10%;
     margin: 10px;
+    z-index: 1;
+
+	line-height: 40px;	
+	padding: 20px 0;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.2), 0 16px 28px rgba(0,0,0,0.2);
+	z-index: 1;
+	overflow: hidden;
+    }
+
+.card_admission_text::before{
+    content: "";
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	height: 200%;
+	width: 200%;
+	background: url("../image/carr.png") center top;
+	filter: blur(10px);
+	z-index: -1;
 }
 
-.card_admission_text_2{
-    position: absolute; 
-    top: 30%; 
-    left: 10%; 
+.blur{
+    position: relative;
+    z-index: 5;
+    filter: blur(5px);
+}
+
+.card_admission_text_1{
+    margin-top: 0px;
     margin: 10px;
+    margin-bottom: 4%;
 }
 
 
 .cart_big_text{
-    font-size: 56px;
+    font-size: 48px;
 }
 
 .card_admission_button{
+    border: 5px solid orange;
+
     position: absolute; 
-    top: 50%;
-    left: 15%; 
+    top: 60%;
+    left: 13%; 
     /* width: 35%; */
     height: 20%;
     background-color: rgba(19, 45, 85, 1);
@@ -62,5 +85,4 @@
 .card_admission_button:hover{
     background-color: orange;
     cursor: pointer;
-    color: black;
 }

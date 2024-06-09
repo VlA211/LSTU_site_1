@@ -14,12 +14,15 @@ html {
 }
 
 .box{
-    width: var(--width);
+    /* width: var(--width); */
     /* flex-shrink: 0; */
     /* justify-content: space-between; */
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+    /* display: flex; */
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    /* flex-wrap: wrap; */
+    /* margin: auto; */
 }
 
 
