@@ -1,0 +1,54 @@
+.card_admission{
+    margin: auto;
+    padding: 20px;
+    width: 1000px;
+
+    font-size: 40px;
+    position: relative; 
+}
+
+.card_admission_img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover; 
+}
+
+.card_admission_text_1{
+    position: absolute; 
+    top: 40px; /* Adjust the top position */
+    left: 40px; /* Adjust the left position */
+    margin: 10px;
+    box-shadow: 5px;
+}
+
+.card_admission_text_2{
+    position: absolute; 
+    top: 80px; /* Adjust the top position */
+    left: 40px; /* Adjust the left position */
+    margin: 10px;
+}
+
+
+.cart_big_text{
+    font-size: 60px;
+}
+
+.card_admission_button{
+    position: absolute; 
+    top: 480px; /* Adjust the top position */
+    left: 570px; /* Adjust the left position */
+    width: 400px;
+    background-color: rgba(19, 45, 85, 1);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.card_admission_button:hover{
+    background-color: orange;
+    cursor: pointer;
+    color: black;
+}

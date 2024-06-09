@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Курс Data Science ЛГТУ</title>
+    <title>Курс Data Analist ЛГТУ</title>
     <link rel="icon" href="image/LSTU_Tit.png" type="image/x-icon">
     <link rel="stylesheet" href="css\main.css">
     <link rel="stylesheet" href="css\header.css">
@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="css\list.css">
     <link rel="stylesheet" href="css\table.css">
     <link rel="stylesheet" href="css\contact.css">
+    <link rel="stylesheet" href="css\card.css">
+    <link rel="stylesheet" href="css\postuplenie.css">
 </head>
-<header>
+<header id="header">
     <img src="image\logo2.jpg" class="logo">
     <button class="header_button" onclick="scrollDown('program1')">О специальности</button>
     <button class="header_button" onclick="scrollDown('program2')">Программа обучения</button>
@@ -26,8 +28,7 @@
         <img src="image/LSTU.jpg" alt="Background image" class="background">
         <div class="overlay">
             <div class="text-block">
-                <h1>DATA SCIENTIST</h1>
-                <h4>#4A5B6B</h4>
+                <h1>DATA ANALIST</h1>
             </div>
 
             <h2 style="margin-left: 120px;">Информация о специальности</h2>
@@ -40,7 +41,7 @@
 
                 <div class="info-block">
                     <h1>Продолжительность обучения</h1>
-                    <p>4 месяца</p>
+                    <p>4.5 месяца</p>
                 </div>
 
                 <div class="info-block">
@@ -50,7 +51,7 @@
 
                 <div class="info-block">
                     <h1>Стоимость обучения</h1>
-                    <p> от 30 000 до 50 000 ₽</p>
+                    <p> от 30 000 рублей</p>
                 </div>
 
             </div>
@@ -60,9 +61,9 @@
     <div class="program" id="program1">
         <h2>О специальности</h2>
 
-        <h3>Откройте для себя мир Data Science</h3>
+        <h3>Откройте для себя мир Data Analist</h3>
         <p>
-            Присоединяйтесь к нашей программе по Data Science и станьте частью
+            Присоединяйтесь к нашей программе по Data Analist и станьте частью
             быстрорастущей индустрии анализа данных. Научитесь извлекать ценные
             инсайты из больших объемов информации и помогать компаниям принимать
             обоснованные решения
@@ -70,7 +71,7 @@
 
         <h3>Стань экспертом в анализе данных</h3>
         <p>
-            Наша программа по Data Science предлагает глубокое погружение в методы
+            Наша программа по Data Analist предлагает глубокое погружение в методы
             машинного обучения, статистики и визуализации данных. Вы освоите
             современные инструменты и технологии для работы с данными и сможете
             применять полученные знания в различных отраслях
@@ -78,7 +79,7 @@
 
         <h3>Будущее за теми, кто умеет работать с данными</h3>
         <p>
-            Выбирая направление Data Science, вы инвестируете в свое будущее.
+            Выбирая направление Data Analist, вы инвестируете в свое будущее.
             Специалисты по анализу данных находятся в высоком спросе на рынке
             труда и получают конкурентоспособную зарплату. Присоединяйтесь к
             нашей программе и откройте для себя новые возможности карьерного
@@ -87,7 +88,7 @@
 
         <h3>Стань частью команды инноваторов</h3>
         <p>
-            Наша программа по Data Science объединяет талантливых студентов и
+            Наша программа по Data Analist объединяет талантливых студентов и
             опытных преподавателей-практиков. Вы будете работать над реальными
             проектами, решать интересные задачи и развивать навыки командной
             работы. Присоединяйтесь к нашему сообществу инноваторов и меняйте мир
@@ -98,63 +99,94 @@
     <div class="program" id="program2">
         <h2>Программа обучения</h2>
 
-        <button class="collapsible">Основы Python<span class="badge">4</span>
-            <span class="icon">+</span></button>
-        <div class="content">
-            <p>В этом блоке вы изучите основы языка Python, что позволит легче работать при анализе данных, обучении
-                моделяей и тп.</p>
-            <ul>
-                <li>Python начало. Ввод вывод. Функции.</li>
-                <li>Библиотека matplotlib.</li>
-                <li>Библиотека numpy.</li>
-                <li>Библиотека pandas.</li>
-            </ul>
-        </div>
+        <h5>
+            За 88 занятий вы пройдёте путь от введение в Python и изучения основных понятий, до полного цикла сбора, анализаа и обработки данных, обучение модели и оценки качества моделей.
+        </h5>
 
-        <button class="collapsible">Алгоритмы и структуры данных <span class="badge">3</span> <span
-                class="icon">+</span></button>
-        <div class="content">
-            <p>В этом блоке вы изучите основные алгоритмы структуры данных.</p>
-            <ul>
-                <li>"Зачем они нужны?". Введение, оценка эффективности.</li>
-                <li>Древовидные структуры данных.</li>
-                <li>Бинарный поиск.</li>
-            </ul>
-        </div>
+        <div class="container">
+            <div class="list">
 
-        <button class="collapsible">Основы анализа данных <span class="badge">3</span> <span
-                class="icon">+</span></button>
-        <div class="content">
-            <p>В этом блоке вы научитесь анализировать данных с помощью коэффициентов корреляции, среднего значения и
-                других, строить регрессии и делать по ним выводы.</p>
-            <ul>
-                <li>Основные методы.</li>
-                <li>Корреляции.</li>
-                <li>Регрессионный анализ.</li>
-            </ul>
+                <button class="collapsible ">Python для автоматизации и анализа данных<span class="badge">5</span>
+                    <span class="icon">+</span></button>
+                <div class="content">
+                    <p>Этот блок включает в себя 22 занятия, за которые вы изучите основы языка Python, 
+                        благодаря чему сможежете легко работать с большими данными, а также моделями машинного обучения.</p>
+                    <ul>
+                        <li>Введение в Python.</li>
+                        <li>Работа в Jupyter.</li>
+                        <li>Numpy и pandas для работы с данными.</li>
+                        <li>Selenium. Работа с сервисами через API.</li>
+                        <li>Визуализаия данных для презинтации с помощь matplotlib и seaborn.</li>
+                    </ul>
+                </div>
+
+                <button class="collapsible">Математика для анализа данных.<span class="badge">3</span> <span
+                        class="icon">+</span></button>
+                <div class="content">
+                    <p>Этот блок включает в себя 36 занятий, за которые вы изучите основные понятие в Data Analist, 
+                        научитесь решать разные задачи с использованием методов оптимизации и теории вероятноестей, работать с матрицами.</p>
+                    <ul>
+                        <li>Математематический анализ: основные понятия для анализа данных.</li>
+                        <li>Линейная алгебра: преобразования и операции над матрицами, работа с ними.</li>
+                        <li>Теория вероятностей и математическая статистика: основные понятия, типы распределений и их свойств. Особенности сбора данных.</li>
+                    </ul>
+                </div>
+
+                <button class="collapsible">Машинное обучение<span class="badge">5</span> <span
+                        class="icon">+</span></button>
+                <div class="content">
+                    <p>Этот блок включает в себя 22 занятия, за которые вы научитесь обрабатывать данные, выбирать модель машинного обучения, обучать её, а также оценить качество моделей.</p>
+                    <ul>
+                        <li>Регрессии и классификаторы.</li>
+                        <li>Подготовка данных. Понижение размерности.</li>
+                        <li>Метрики качества.</li>
+                        <li>Ансамбли. Градиентный бустинг.</li>
+                        <li>Кластаризация и везуализация.</li>
+                    </ul>
+                </div>
+
+                <button class="collapsible">Машинное обучение в Spark <span class="badge">4</span> <span
+                    class="icon">+</span></button>
+            <div class="content">
+                <p>Этот блок включает в себя 8 занятий, за которые вы научитесь собирать большие объемы данных, а также работать с моделями в профессиональной среде.</p>
+                <ul>
+                    <li>Введение в Big Data: как работают и где находятся большие данные. Среда Spark (RDD, SQL).</li>
+                    <li>Advenced SQL, Spark ML.</li>
+                    <li>Advanced ML и проверка результатов качества моделей; Spark GraphX /Spark Streaming.</li>
+                    <li>Экосистема Spark (MLFlow, AirFlow,H2O AutoML); Spark в архитектуре проекта / Spark CI/CD.</li>
+                </ul>
+            </div>
+
+            </div>
         </div>
     </div>
 
+
+
+
+
     <div class="program" id="program3">
         <h2>Формат обучения</h2>
-        
+
         <!-- <h5>Вас ждёт интенсив на 3 месяца, проходящий в очном формате</h5> -->
 
 
-       <p>Вас ждёт интенсив на 3 месяца, проходящий в очном формате, на котором вы научитесь основным навыкам специолиста Data Scientist:</p> 
-       
-       <ul>
-        <li>Вы освоите основы языка Python.</li>
-        <li>Вы научитесь работать с такими библиотеками, как numpy, pandas, matplotlib, sklearn, statistics.</li>
-        <li>Вы изучите методы анализа данных и научитесь применять их к реальным задачам.</li>
-        <li>Вы изучите архитектуру разных моделей машинного обучения и научитесь создавать модели для решения определенных задач.</li>
-       </ul>
+        <h5>Вас ждёт интенсив на 4 с половиной месяца, проходящий в очном формате, на котором вы научитесь основным навыкам
+            специолиста Data Analist:</h5>
+
+        <ul>
+            <li>Вы освоите основы языка Python, а также научитесь работать с популярными библиотеками (numpy, pandas и другие)</li>
+            <li>Вы изучите методы анализа и обрабоки данных, научитесь их собирать.</li>
+            <li>Вы изучите архитектуру разных моделей машинного обучения и научитесь создавать модели для решения
+                определенных задач. Научитесь оценивать качество моделей.</li>
+            <li>Вы научитесь работать в среде Spark, создавать и обучать модели.</li>
+        </ul>
 
     </div>
 
     <div class="program" id="program4">
         <h2>Поступление</h2>
-
+<!-- 
         <table>
             <thead>
                 <tr>
@@ -171,9 +203,23 @@
                 <td>3 месяца</td>
                 <td>50,000 руб.</td>
             </tr>
-        </table>
+        </table> -->
+
+        <div class="card_admission">
+            <img class="card_admission_img" src="image/analist.jpg">
+
+            <div class="card_admission_text_1">
+                Стоимость обучения: 50 000 рублей
+            </div>
+
+            <div class="card_admission_text_2" style="margin-bottom: 30px;" >
+                Если вы студент ЛГТУ: 30 000 рублей
+            </div>
 
 
+            <button class="card_admission_button" onclick="window.open('https\:\/\/www.example.com', '_blank')"><div class="cart_big_text">Хочу поступить</div></button>
+        </div>
+        
     </div>
 
 
@@ -220,16 +266,15 @@
                 <a href="https://vk.com/infolgtu" target="_blank"><img width="36" height="36"
                         src="/image/vk.svg"></img></a>
                 <a href="https://t.me/infolgtu" target="_blank"><img width="36" height="36"
-                    src="/image/telegram.svg"></img></a>
+                        src="/image/telegram.svg"></img></a>
                 <a href="https://rutube.ru/channel/23637735/" target="_blank"><img width="36" height="36"
-                    src="/image/rutube.svg"></img></a>
+                        src="/image/rutube.svg"></img></a>
                 <a href="https://zen.yandex.ru/id/622e3374a592853404043d2b" target="_blank"><img width="36" height="36"
-                    src="/image/yandex.svg"></img></a>
+                        src="/image/yandex.svg"></img></a>
                 <a href="https://ok.ru/group/54350853243051" target="_blank"><img width="36" height="36"
-                    src="/image/odn.svg"></img></a>
+                        src="/image/odn.svg"></img></a>
                 <a href="https://www.youtube.com/channel/UCpNTU2trtnplKH4mXVNW-Rg?view_as=subscriber"
-                    target="_blank"><img width="36" height="36"
-                    src="/image/youtube.svg"></img></a>
+                    target="_blank"><img width="36" height="36" src="/image/youtube.svg"></img></a>
             </div>
         </div>
     </div>

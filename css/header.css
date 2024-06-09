@@ -1,5 +1,4 @@
 header {
-    /* background-color: hsl(216, 63%, 20%); */
     background-color: var(--color-primary);
     color: #fff;
     padding: 0;
@@ -7,14 +6,17 @@ header {
     height: var(--height-header);
     margin: auto;
     margin-top: 0px;
-
     width: var(--width);
-    /* flex-shrink: 0; */
-    /* justify-content: space-between; */
     display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    transition: 0.5s;
 }
+
 
 .logo{
   /* width: px;   */

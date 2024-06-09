@@ -19,6 +19,7 @@ body{
   }
   
   .overlay {
+    /* margin-top: 100px; */
     color: var(--color-baner-text);
     position: absolute; 
     top: 0;
